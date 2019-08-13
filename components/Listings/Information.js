@@ -11,7 +11,7 @@ export default class Information extends React.Component {
     this.setState({ showQuotes: true }, () => {
       Animated.timing(this.anival, {
         toValue: 1,
-        duration: 500,
+        duration: 200,
       }).start();
     });
   };
@@ -19,7 +19,7 @@ export default class Information extends React.Component {
   hideQuotes = () => {
     Animated.timing(this.anival, {
       toValue: 0,
-      duration: 500,
+      duration: 200,
     }).start(() => {
       this.setState({ showQuotes: false });
     });
