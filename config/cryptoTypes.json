@@ -1,0 +1,14 @@
+[
+  {
+    "name": "All",
+    "value": "all"
+  },
+  {
+    "name": "Coins",
+    "value": "coins"
+  },
+  {
+    "name": "Tokens",
+    "value": "tokens"
+  }
+]

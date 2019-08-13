@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Market capitialization",
+    "value": "market_cap"
+  },
+  {
+    "name": "Name",
+    "value": "name"
+  },
+  {
+    "name": "Symbol",
+    "value": "symbol"
+  },
+  {
+    "name": "Date added",
+    "value": "date_added"
+  },
+  {
+    "name": "Market capitialization strict",
+    "value": "market_cap_strict"
+  },
+  {
+    "name": "Price",
+    "value": "price"
+  },
+  {
+    "name": "Circulating supply",
+    "value": "circulating_supply"
+  },
+  {
+    "name": "Total supply",
+    "value": "total_supply"
+  },
+  {
+    "name": "Max supply",
+    "value": "max_supply"
+  },
+  {
+    "name": "Number of market pairs",
+    "value": "num_market_pairs"
+  },
+  {
+    "name": "Percentage change of last 1 hour",
+    "value": "percent_change_1h"
+  },
+  {
+    "name": "Percentage change of last 24 hours",
+    "value": "percent_change_24h"
+  },
+  {
+    "name": "Percentage change of last 1 week",
+    "value": "percent_change_7d"
+  },
+  {
+    "name": "Market capitalization by tootal supply",
+    "value": "market_cap_by_total_supply_strict"
+  },
+  {
+    "name": "Volume of last 24 hours",
+    "value": "volume_24h"
+  },
+  {
+    "name": "Volume of last 1 week",
+    "value": "volume_7d"
+  },
+  {
+    "name": "Volume of last 24 hours",
+    "value": "volume_24h"
+  },
+  {
+    "name": "Volume of last 30 days",
+    "value": "volume_30d"
+  },
+  {
+    "name": "Volume of last 24 hours",
+    "value": "volume_24h"
+  }
+]
