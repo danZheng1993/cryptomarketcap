@@ -15,6 +15,7 @@ export function* fetchListGenerator() {
   const queryObject = yield select(getQuery);
   const count = yield select(getTotalCount);
   try {
+    console.log(count);
     const data = yield call(getLatestListings, {
       ...queryObject,
       convert: queryObject.convert.join(','),

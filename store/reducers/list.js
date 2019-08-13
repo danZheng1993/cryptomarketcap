@@ -11,7 +11,7 @@ const initialState = {
     cryptocurrency_type: 'all',
   },
   data: [],
-  error: {},
+  error: '',
 };
 
 export default handleActions(
