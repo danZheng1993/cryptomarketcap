@@ -2,20 +2,19 @@ import { call, put, takeEvery, select } from 'redux-saga/effects';
 import get from 'lodash.get';
 import hasIn from 'lodash.hasin';
 
-import { ActionTypes, fetchList } from '../actions/listActions';
+import { ActionTypes } from '../actions/listActions';
 import { getQuery, getTotalCount } from '../selectors/list';
 
 import { getLatestListings } from '../../api';
 
 export function* updateQueryGenerator() {
-  yield put(fetchList);
+  yield put({ type: ActionTypes.fetchList });
 }
 
 export function* fetchListGenerator() {
   const queryObject = yield select(getQuery);
   const count = yield select(getTotalCount);
   try {
-    console.log(count);
     const data = yield call(getLatestListings, {
       ...queryObject,
       convert: queryObject.convert.join(','),
