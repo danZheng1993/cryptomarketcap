@@ -2,7 +2,7 @@ import { handleActions } from 'redux-actions';
 
 import { ActionTypes } from '../actions/listActions';
 
-const initialState = {
+export const initialState = {
   currentState: '',
   query: {
     convert: ['USD'],

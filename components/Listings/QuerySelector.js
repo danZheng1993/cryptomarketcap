@@ -55,7 +55,7 @@ export default class QuerySelector extends React.Component {
   }
 
   render() {
-    const { show, query } = this.state;
+    const { show, query = {} } = this.state;
     const { sort_dir, sort, convert, cryptocurrency_type } = query;
     return (
       <React.Fragment>

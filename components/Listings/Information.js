@@ -39,16 +39,16 @@ export default class Information extends React.Component {
 
   render() {
     const { showQuotes } = this.state;
-    const { data } = this.props;
+    const { data = {} } = this.props;
     const {
-      quote,
-      symbol,
-      name,
-      cmc_rank,
-      num_market_pairs,
-      circulating_supply,
-      total_supply,
-      tags
+      quote = {},
+      symbol = '',
+      name = '',
+      cmc_rank = 0,
+      num_market_pairs = 0,
+      circulating_supply = 0,
+      total_supply = 0,
+      tags = [],
     } = data;
     const currencies = Object.keys(quote);
     return (
